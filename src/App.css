@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+.container{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  cursor: pointer;
+}
+.event{
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.even{
+  text-decoration: none;
+  color: black;
+}
+button{
+  background-color: black;
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+button:hover{
+  background-color: tomato;
+}
+.link{
+  text-decoration: none;
+  color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  fill: aqua;
+}
